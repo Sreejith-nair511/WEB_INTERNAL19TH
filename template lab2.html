@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html="en">
+<head>
+  <title>LAB 2</title>
+  <style>
+    table {
+      border-collapse: collapse;
+    }
+    td, th {
+      border: 1px solid black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body bgcolor="pink">
+  <center><h2>Welcome to Millennium Gymnastics Booster Club Popcorn Sale</h2></center>
+
+  <form>
+    <table>
+      <tr>
+        <td>Enter your Name:</td>
+        <td><input type="text" name="username" size="25"></td>
+      </tr>
+      <tr>
+        <td>Street Address:</td>
+        <td><input type="text" name="address" size="25"></td>
+      </tr>
+      <tr>
+        <td>City, State, Zip:</td>
+        <td><input type="text" name="city" size="25"></td>
+      </tr>
+    </table>
+
+    <br>
+
+    <img src="popcorn.png" alt="Logo Image" height="100" width="100" align="right">
+
+    <table>
+      <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+      </tr>
+      <tr>
+        <td>Unpopped Popcorn (1 lb.)</td>
+        <td>$3.00</td>
+        <td><input type="text" name="pop1" size="15"></td>
+      </tr>
+      <tr>
+        <td>Caramel Popcorn (2 lb. canister)</td>
+        <td>$5.00</td>
+        <td><input type="text" name="pop2" size="15"></td>
+      </tr>
+      <tr>
+        <td>Toffee Nut Popcorn (2 lb. canister)</td>
+        <td>$5.00</td>
+        <td><input type="text" name="pop3" size="15"></td>
+      </tr>
+      <tr>
+        <td>Caramel Nut Popcorn (2 lb. canister)</td>
+        <td>$5.00</td>
+        <td><input type="text" name="pop4" size="15"></td>
+      </tr>
+    </table>
+
+    <br>
+
+    <b>Payment Method:</b><br>
+    <input type="radio" name="method" value="master"> MasterCard<br>
+    <input type="radio" name="method" value="discover"> Discover<br>
+    <input type="radio" name="method" value="check"> Check<br>
+
+    <br>
+    <input type="submit" value="Submit Order">
+    <input type="reset" value="Clear Form">
+  </form>
+</body>
+</html>
