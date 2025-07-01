@@ -1,0 +1,3 @@
+<h1>FOR THE WEB INTERNAL EXTERNAL CONSSIST OF BASIC HTML CSS AND JS </h1>
+
+<h1>purpose ends on 6th july </h1>
